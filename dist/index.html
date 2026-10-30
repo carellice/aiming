@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e97543">
+  <meta name="description" content="Aiming: il tuo spazio per dare forma alle idee. Lavagne infinite, note, checklist e immagini, salvate sul tuo dispositivo.">
+  <title>Aiming — Dai spazio alle tue idee</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./layout.css">
+  <link rel="stylesheet" href="./typography.css">
+  <link rel="stylesheet" href="./minimap.css">
+</head>
+<body>
+  <div id="app" class="app-shell"><div class="loading-state">Aiming <span>Il tuo spazio sta prendendo forma…</span></div></div>
+  <div id="modal-root"></div>
+  <div class="toast-stack" id="toasts" aria-live="polite"></div>
+  <input type="file" id="image-upload" accept="image/png,image/jpeg,image/webp,image/gif,image/avif" multiple hidden>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

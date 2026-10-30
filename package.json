@@ -1,0 +1,13 @@
+{
+  "name": "aiming",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lavagne infinite e private, salvate sul tuo dispositivo.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/data.js && node --check dist/demo.js && node --check dist/views.js && node --check dist/text-style.js && node --check dist/minimap.js"
+  }
+}
