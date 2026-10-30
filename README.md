@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="dist/favicon.svg" alt="Logo di Aiming" width="80" height="80">
+</p>
+
 # Aiming
 
 [Apri Aiming su GitHub Pages](https://carellice.github.io/aiming/)
@@ -5,6 +9,18 @@
 Il sito viene pubblicato automaticamente da GitHub Actions a ogni push su `main`. Viene servita soltanto la cartella `dist`; i contenuti delle lavagne restano nel browser. Per trasferire le lavagne dal precedente indirizzo, esporta un backup e reimportalo su GitHub Pages.
 
 Uno spazio personale per raccogliere e organizzare le idee su più lavagne infinite. L’interfaccia è in italiano e include post-it, testi liberi, checklist, immagini e link.
+
+## Screenshot
+
+La home e una lavagna con i contenuti di esempio inclusi nell’app.
+
+### Le tue lavagne
+
+![Home di Aiming con anteprime delle lavagne, preferiti e ricerca](docs/screenshots/home.png)
+
+### Uno spazio per le idee
+
+![Lavagna di Aiming con post-it collegati, checklist, immagine, testo libero e minimappa](docs/screenshots/lavagna.png)
 
 ## Avvio locale
 
